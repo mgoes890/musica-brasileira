@@ -1,0 +1,62 @@
+/* Estilo geral */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #000; /* preto */
+  color: #fff;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #001f3f; /* azul escuro */
+  padding: 20px;
+  text-align: center;
+}
+
+header h1 {
+  margin: 0;
+  color: #00aaff; /* azul claro */
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 15px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav ul li a:hover {
+  color: #00aaff;
+}
+
+main {
+  padding: 20px;
+}
+
+section {
+  margin: 30px 0;
+  padding: 15px;
+  border: 2px solid #00aaff;
+  border-radius: 10px;
+  background-color: #111;
+}
+
+h2 {
+  color: #00aaff;
+}
+
+footer {
+  background-color: #001f3f;
+  text-align: center;
+  padding: 15px;
+  margin-top: 20px;
+}
